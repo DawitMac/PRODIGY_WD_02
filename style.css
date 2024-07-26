@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+ }
+ /* #c4dce8  #f8f8ff */
+ body{
+     padding: 0;
+     margin: 0;
+     background-color: #edf7ff;
+     width: 100dvw;
+     height: 100dvh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+ }
+ .container {
+     height: 80%;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     gap: 30px;
+     align-items: center;
+     justify-content: space-between;
+     background-color: transparent ;
+     border-radius: 8px;
+ }
+
+ .screen {
+   padding: 40px;
+    border-radius : 50%;
+  
+ }
+
+ .time {
+    color : black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+ }
+ .time p {
+    font-size: xx-large;
+ }
+ .lap-time {
+    height: 30%;
+    width: 50%;
+    background-color: white;
+ }
+ .buttons {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 16px;
+ }
+ .buttons button {
+    padding: 16px 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+ }
+ img {
+   width: 30px;
+   height: 30px;
+ }
+ .lap-time{
+  padding-left: 20px;
+   width : 100%;
+   height: 50%;
+   font-size: x-large;
+   overflow-y: scroll;
+ }
+ @media screen and ( max-width : 640px) {
+    .calculator{
+        height: 90%;
+        width: 95%;
+        background-color: white;
+        gap: 20px;
+        }
+        .screen {
+            width : 30%;
+         }
+}
